@@ -1,0 +1,234 @@
+.entrada{
+    min-height: 264.95px;
+    position: relative;
+    
+
+}
+
+.entrada_box{
+    position: absolute;
+    top: 19%;
+    left: 3%;
+    color: white;
+}
+
+button{
+    width: 21%;
+    height: 41px;
+    background-color: #1c69d5;
+    color: white;
+    position: absolute;
+    left: 3%;
+    bottom: 8%;
+    font-size: 90%;
+    border: 0px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(24, 93, 153);
+    
+}
+
+
+.fotoPrincipal{
+    width: 100%;
+    
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nav_text{
+    font-size: 14px;
+    
+}
+
+.nav_icon{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icono{
+    width: 13px;
+    margin-left: 30px;
+    
+}
+
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: black;
+}
+
+.menu{
+    color: aliceblue;
+    margin-right: 35px;
+}
+
+.logo{
+    margin-left:30px;
+    width: 55px
+}
+
+.before::before{
+    content:">";
+    color:black;
+    border:6px
+}
+
+.negrita{
+    font-weight: 550;
+}
+
+.selector{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width: 100%;
+    height: 60px;
+    align-content: center;
+    flex-direction: row;
+    border-bottom: 1px solid;
+}
+
+
+
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.gallery_tarjeta{
+    width: 25%;
+    min-width: 230px;
+}
+
+.gallery_tarjeta_img{
+    width: 100%;
+}
+
+.interes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.interes_tarjeta{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+
+.interes2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: FLEX;
+    margin-top: 60px;
+}
+
+.interes2_tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 312px;
+}
+
+.interes2_fotos{
+width: 100%;
+;
+}
+
+.prefooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.prefooter_tarjeta{
+    width: 200px;
+    height: 122px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.prefooter_tarjeta_icono{
+    width: 40px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    margin-top: 60px;
+}
+
+div span a:hover{
+font-weight: 700;
+color: black;
+border-bottom: 3px solid #1c69d5;
+}
+
+div span a{
+    padding-bottom: 18px;
+     
+
+}
+
+div span a{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+.footer_box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.footer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.contenido{
+    margin-left: 10%;
+    margin-right: 10%;
+ 
+}
